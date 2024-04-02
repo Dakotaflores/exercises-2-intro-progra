@@ -7,14 +7,8 @@ using namespace std;
 void exercise_1(string s1) {
   // TODO: YOUR CODE HERE
 
-  string line;
-  getline (cin,line)
-
-  int i;
-  for(i = 0; i < line.size () ; ++i){
-    if(line [i] == " "){
-      
-    }
+  for(s1 = 0; s1 < line.size () ; ++s1){
+    if(line [s1] == " ")
   
   }
 
