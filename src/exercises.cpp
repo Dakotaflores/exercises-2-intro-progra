@@ -6,6 +6,16 @@ using namespace std;
 
 void exercise_1(string s1) {
   // TODO: YOUR CODE HERE
+
+  string line;
+  getline (cin,line)
+
+  int i;
+  for(i = 0; i < line.size () ; ++i){
+    if(line [i] == " ") 
+  
+  }
+
 }
 
 void exercise_2(string s1) {
