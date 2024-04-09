@@ -19,20 +19,20 @@ void exercise_1(string s1) {
 
 void exercise_2(string s1) {
   // TODO: YOUR CODE HERE
-  for (i = 0; i < line.size() ; i++) {
+  /*for (i = 0; i < line.size() ; i++) {
     if(line[i] == " ") {
  word = word + "]";
   imprime word;
   word = "[";
  } else {
      word = word + line[i]
- }
+ }*/
 
 }
 
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
-  
+
     getline(cin, input);
     
     for(i = 0 ; i < input.size() ; ++i) {
