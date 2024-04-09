@@ -59,6 +59,26 @@ void exercise_3(string s1) {
 
 void exercise_4(int n) {
   // TODO: YOUR CODE HERE
+
+  int accumulate = 1;
+
+  if (n > 14) {
+    cout << "El numero es muy grande. Intentelo de nuevo" << endl;
+  }
+    
+  else if (n < 0) {
+    cout << "El numero es negativo. Intentelo de nuevo" << endl;
+  }
+    
+  for(int i = 0 ; i <= n ; ++i) {
+
+    if (i > 1) {
+      accumulate = accumulate * i;   //(n * (n - 1) * (n - 2) * ... * 2 * 1); 
+        
+    }
+
+  } 
+  cout << "El factorial es: " << n << endl;
 }
 
 void exercise_5(int n, int k) {
