@@ -33,16 +33,16 @@ void exercise_2(string s1) {
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
 
-    getline(cin, s1);
+    //getline(cin, s1);
     
     for(int i = 0 ; i < s1.size() ; ++i) {
         
         if(i >= 10) {
             break;
         } else if (s1[i] == '1') {
-            cout << "Om-nom-nom :P\n";
+            cout << "Om-nom-nom :P" << endl;
         } else if (s1[i] == '0') {
-            cout << "No cake :(\n"; 
+            cout << "No cake :(" << endl; 
             break;
         }
         
