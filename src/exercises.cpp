@@ -13,7 +13,7 @@ void exercise_1(string s1) {
       cout << i << endl;
     }
   }
-  //cout << i << endl;
+  cout << s1.size() << endl;
 }
 
 void exercise_2(string s1) {
