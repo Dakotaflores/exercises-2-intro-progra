@@ -22,7 +22,7 @@ void exercise_2(string s1) {
   string word = "";
 
   for (int i = 0; i < s1.size() ; ++i) {
-    if(s1[i] == " ") {
+    if(s1[i] == ' ') {   // ' ', para que el espacio cuente como caracter
       //word = word + "";
       cout << "[" << word << "]" << endl;
       word = "";
