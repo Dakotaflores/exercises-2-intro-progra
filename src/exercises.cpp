@@ -18,15 +18,19 @@ void exercise_1(string s1) {
 
 void exercise_2(string s1) {
   // TODO: YOUR CODE HERE
-  /*for (i = 0; i < line.size() ; i++) {
-    if(line[i] == " ") {
- word = word + "]";
-  imprime word;
-  word = "[";
- } else {
-     word = word + line[i]
- }*/
 
+  string word = "[";
+
+  for (int i = 0; i < s1.size() ; i++) {
+    if(s1[i] == " ") {
+      word = word + "]";
+      cout << word << endl;
+      word = "[";
+    } else {
+      word = word + s1[i]
+    }
+
+  }
 }
 
 void exercise_3(string s1) {
