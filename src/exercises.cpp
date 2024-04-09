@@ -78,7 +78,7 @@ void exercise_4(int n) {
     }
 
   } 
-  cout << "El factorial es: " << accumulate << endl;
+  cout << accumulate << endl;
 }
 
 void exercise_5(int n, int k) {
