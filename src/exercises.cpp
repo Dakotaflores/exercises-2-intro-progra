@@ -78,7 +78,7 @@ void exercise_4(int n) {
     }
 
   } 
-  if ( n < 14 && n > 0) {
+  if ( n <= 14 && n >= 0) {
     cout << accumulate << endl;
   }
   
