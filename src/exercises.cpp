@@ -63,8 +63,8 @@ void exercise_4(int n) {
   int accumulate = 1;
 
   if (n > 14) {
-    cout << "El numero es muy grande. Intentelo de nuevo" << endl;
-  }
+    cout << "El numero es muy grande. Intentelo de nuevo"<< endl;
+  } 
     
   else if (n < 0) {
     cout << "El numero es negativo. Intentelo de nuevo" << endl;
@@ -78,7 +78,10 @@ void exercise_4(int n) {
     }
 
   } 
-  cout << accumulate << endl;
+  if ( n < 14 && n > 0) {
+    cout << accumulate << endl;
+  }
+  
 }
 
 void exercise_5(int n, int k) {
