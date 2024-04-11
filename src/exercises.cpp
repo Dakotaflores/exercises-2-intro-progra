@@ -97,7 +97,7 @@ int exercise_6(int n) {
 
     int suma = 0;
     while (n > 0) {
-        suma = suma + e % 10; 
+        suma = suma + n % 10; 
         n = n / 10; 
       }
       cout << "El resultado de la suma es: " << suma;
