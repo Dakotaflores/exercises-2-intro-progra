@@ -134,6 +134,7 @@ void exercise_15(int decimal) {
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
+  ///unomas
 }
 
 void exercise_17(int n) {
