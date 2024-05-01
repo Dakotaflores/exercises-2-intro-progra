@@ -87,7 +87,7 @@ void exercise_4(int n) {
 void exercise_5(int n, int k) {
   // TODO: YOUR CODE HERE 
   for(int i=1; i < n; ++i) {
-    cout << "  ";
+    cout << "   ";
   }
   for (int j = 1; j <= k; ++j) {
     if(j < 10) {
