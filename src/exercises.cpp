@@ -212,6 +212,15 @@ void exercise_11() {
 
 void exercise_12() {
   // TODO: YOUR CODE HERE
+  double u_0 = 1.0;
+  double u_n = u_0;
+  double v_n = u_0;
+
+  for (int i = 1; i <= 10; ++i) {
+    u_n /= i;
+    v_n += u_n;
+    cout << "U" << i << " = " << u_n << " V" << i << " = " << "1" << endl;
+  }
 
 }
 
