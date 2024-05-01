@@ -188,7 +188,13 @@ void exercise_12() {
 
 long exercise_13(int n, int k) {
   // TODO: YOUR CODE HERE
-  return 0;
+   long resultado = 0;
+
+    for (int i = 1; i <= n; i++) {
+        resultado = resultado + pow(i,k);
+        
+    }
+  return resultado;
 }
 
 string exercise_14(int n) {
