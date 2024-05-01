@@ -85,7 +85,8 @@ void exercise_4(int n) {
 }
 
 void exercise_5(int n, int k) {
-  // TODO: YOUR CODE HERE
+  // TODO: YOUR CODE HERE 
+  
 }
 
 int exercise_6(int n) {
@@ -120,8 +121,29 @@ void exercise_7(int n) {
 
 void exercise_8(string s) {
   // TODO: YOUR CODE HERE
+  //getline(cin, string s);
 
-  
+  string esp;
+  for (int i = 0; i < s.size(); ++i){
+    if (s[i] != ' ') {
+        esp = esp + s[i];
+    }
+  }
+    // Compruebo si es palindromo
+    bool ep = true;
+    int longi = esp.size();
+    for (int i = 0; i <= longi ; ++i) {
+        if (esp[i] != esp[longi - i - 1]) {
+            ep = false;
+        }
+    }
+    // mostramos el resultado
+    if (ep) {
+        cout << "YES"<<endl;
+    } else {
+        cout << "NO"<<endl;
+    }
+
 }
 
 void exercise_9(string s) {
