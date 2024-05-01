@@ -266,11 +266,14 @@ void exercise_15(int decimal) {
     int acumular = decimal%2;
     int acumulativo;
     if((acumulativo%2) == 0) {
-      break;
+      cout << decimal << endl;
+    }
+    else() {
+      default;
     }
     //decimal = dividir, acumular
 
-    cout << decimal;
+    //cout << decimal;
   }
   //cout << decimal << endl;
 }
