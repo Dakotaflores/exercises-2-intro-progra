@@ -264,9 +264,13 @@ void exercise_15(int decimal) {
   for(int i = 0; i < decimal; ++i) {
     int dividir = decimal/2;
     int acumular = decimal%2;
+    int acumulativo;
+    if((acumulativo%2) == 0) {
+      break;
+    }
     //decimal = dividir, acumular
 
-    cout << decimal << endl;
+    cout << decimal;
   }
   //cout << decimal << endl;
 }
