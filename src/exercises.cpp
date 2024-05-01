@@ -261,26 +261,17 @@ string exercise_14(int n) {
 
 void exercise_15(int decimal) {
   // TODO: YOUR CODE HERE
-<<<<<<< HEAD
   for(int i = 2; i < (decimal/2); ++i) {
     int dividir = decimal/2;
-=======
-  for(int i = 2; i < decimal; ++i) {
-    int dividir = decimal/2;
->>>>>>> 9f55338a6a974d837b500f7dd4e976b76d714ae8
     int acumular = decimal%2;
-<<<<<<< HEAD
     decimal = dividir, acumular
-=======
-    int decimal = dividir, acumular;
->>>>>>> 9f55338a6a974d837b500f7dd4e976b76d714ae8
 
-    cout << decimal << endl;
-
+    //cout << decimal << endl;
   }
-  }
-
+  cout << decimal << endl;
 }
+
+
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
