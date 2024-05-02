@@ -261,21 +261,17 @@ string exercise_14(int n) {
 
 void exercise_15(int decimal) {
   // TODO: YOUR CODE HERE
-  for(int i = 0; i < decimal; ++i) {
-    int dividir = decimal/2;
-    int acumular = decimal%2;
-    int acumulativo;
-    if((acumulativo%2) == 0) {
-      cout << decimal << endl;
-    }
-    else() {
-      default;
-    }
-    //decimal = dividir, acumular
-
-    //cout << decimal;
+  string bin = ""; 
+  if(decimal == 0){
+    bin = to_string(decimal);
   }
-  //cout << decimal << endl;
+  while (decimal > 0) {
+  int r = decimal % 2; 
+  bin = to_string(r) + bin; 
+
+  decimal /= 2; 
+    }
+    cout << bin << endl;
 }
 
 
